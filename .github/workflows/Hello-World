@@ -1,0 +1,11 @@
+name: Hello world
+on:
+    pull-request:
+        branches:
+            - main
+jobs:
+
+    name: Hello World
+    runs-on: ubuntu-latest
+    steps:
+        name: "Say Hello to every One"
